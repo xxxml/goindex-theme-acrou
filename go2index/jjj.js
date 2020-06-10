@@ -4,9 +4,9 @@ var authConfig = {
   version: "1.1.1", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
-  client_id: "202264815644.apps.googleusercontent.com",
-  client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", // 授权 token
+  client_id: "726040321040-eha7e4n2b7e9po1ubf5s7jpvl5s0l2te.apps.googleusercontent.com",
+  client_secret: "ZpkbPq8y0Uj245ILuJk389s_",
+  refresh_token: "1//0eFix2b5SN_xLCgYIARAAGA4SNwF-L9Irz66_Tm4tjiSJX919Od3559vHgdKneschilcoFqVQQwpA4r22tE7cGfwTWw12LjxbnaM", // 授权 token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -20,24 +20,14 @@ var authConfig = {
    * 不需要 Basic Auth 的盘，保持 user 和 pass 同时为空即可。（直接不设置也可以）
    * 【注意】对于id设置为为子文件夹id的盘将不支持搜索功能（不影响其他盘）。
    */
-  roots: [
-    {
-      id: "",
-      name: "TeamDrive",
-      pass: "",
-    },
-    {
-      id: "root",
-      name: "PrivateDrive",
-      user: "",
-      pass: "",
-      protect_file_link: true,
-    },
-    {
-      id: "",
-      name: "folder1",
-      pass: "",
-    },
+  "roots": [
+	{
+		"id": "0AAp4zqaaGZ4MUk9PVA",
+		"name": "jiangjj",
+		"user": "jiangjj",
+		"pass": "sd014335",
+		"protect_file_link": false
+	}
   ],
   default_gd: 0,
   /**
